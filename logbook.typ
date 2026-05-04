@@ -72,7 +72,7 @@
 #v(1em)
   
 #grid(
-  columns: (1.5fr, 2fr), // Shifts the labels more to the left
+  columns: (1.2fr, 2.5fr), // Shifts the labels even further to the left
   row-gutter: 0.8em,
   align: (right, left),
   column-gutter: 1.5em,
