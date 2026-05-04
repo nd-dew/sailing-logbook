@@ -72,7 +72,7 @@
 #v(1em)
   
 #grid(
-  columns: (0.8fr, 3fr), // Shifts the labels extremely to the left
+  columns: (auto, 1fr), // Auto fits the longest label perfectly, 1fr takes the rest
   row-gutter: 0.8em,
   align: (right, left),
   column-gutter: 1.5em,
