@@ -9,7 +9,7 @@
           dir: ttb,
           spacing: 2pt,
           align(center)[#image("favicon.png", width: 1cm)],
-          align(center)[#text(font: ("Brush Script MT", "cursive", "serif"), style: "italic", weight: "bold", size: 10pt, fill: navy)[BSC]]
+          align(center)[#text(font: "Libertinus Serif", style: "italic", weight: "bold", size: 12pt, fill: navy)[BSC]]
         )
       ]
     }
@@ -24,7 +24,7 @@
 )
 
 #set text(
-  font: "serif",
+  font: "Libertinus Serif",
   size: 12pt,
 )
 
