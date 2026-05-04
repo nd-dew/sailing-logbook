@@ -62,7 +62,6 @@
 )
 
 // --- Cover Page ---
-#v(1em) 
 #align(center)[
   #text(size: 11pt, style: "italic")[The logbook of the project:] \
   #v(-1.2em)
@@ -76,21 +75,21 @@
   row-gutter: 0.8em,
   align: (right, left),
   column-gutter: 1.5em,
-  [*Yacht:*], [#if yacht-model != "" or yacht-name != "" [#yacht-model #if yacht-name != "" ["#yacht-name"]] else [#box(width: 100%, repeat[.])] ],
-  [*MMSI:*], [#if mmsi != "" [#mmsi] else [#box(width: 100%, repeat[.])] ],
-  [*Call Sign:*], [#if call-sign != "" [#call-sign] else [#box(width: 100%, repeat[.])] ],
-  [*Home Port:*], [#if home-port != "" [#home-port] else [#box(width: 100%, repeat[.])] ],
-  [*Start Date:*], [#if start-date != none [#start-date.display("[month repr:long] [day], [year]")] else [#box(width: 100%, repeat[.])] ],
-  [*End Date:*], [#if end-date != "" [#end-date] else [#box(width: 100%, repeat[.])] ],
-  [*Sailing Area:*], [#if sailing-area != "" [#sailing-area] else [#box(width: 100%, repeat[.])] ],
-  [*Charter Company:*], [#if charter-company != "" [#charter-company] else [#box(width: 100%, repeat[.])] ],
-  [*Captain:*], [#if captain != "" [#captain] else [#box(width: 100%, repeat[.])] ],
+  [*Yacht:*], [#if yacht-model != "" or yacht-name != "" [#yacht-model #if yacht-name != "" ["#yacht-name"]] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
+  [*MMSI:*], [#if mmsi != "" [#mmsi] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
+  [*Call Sign:*], [#if call-sign != "" [#call-sign] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
+  [*Home Port:*], [#if home-port != "" [#home-port] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
+  [*Start Date:*], [#if start-date != none [#start-date.display("[month repr:long] [day], [year]")] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
+  [*End Date:*], [#if end-date != "" [#end-date] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
+  [*Sailing Area:*], [#if sailing-area != "" [#sailing-area] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
+  [*Charter Company:*], [#if charter-company != "" [#charter-company] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
+  [*Captain:*], [#if captain != "" [#captain] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
 )
   
 #v(1em)
   
 #align(center)[
-  #block(width: 80%, stroke: 0.5pt + gray, inset: 1em)[
+  #block(width: 100%, stroke: 0.5pt + gray, inset: 1em)[
     #align(left)[
       *Crew List:*
       #v(0.5em)
@@ -99,7 +98,7 @@
           #if person != "" [
             #(idx + 1). #person \
           ] else [
-            #(idx + 1). #box(width: 80%, repeat[.]) \
+            #(idx + 1). #box(width: 1fr, repeat[#text(fill: luma(180))[.]]) \
           ]
         ]
       ]
@@ -277,10 +276,10 @@
 #{
   let ranks = ("1st Officer", "2nd Officer", "3rd Officer")
   for (idx, watch) in watch-assignments.enumerate() [
-    - *#watch.officer* (#ranks.at(idx)) #box(width: 1fr, repeat[.])
+    - *#watch.officer* (#ranks.at(idx)) #box(width: 1fr, repeat[#text(fill: luma(180))[.]])
     #for m in watch.members [
       #pad(left: 1.5em)[
-        - #m #box(width: 1fr, repeat[.])
+        - #m #box(width: 1fr, repeat[#text(fill: luma(180))[.]])
       ]
     ]
     #v(0.5em)
