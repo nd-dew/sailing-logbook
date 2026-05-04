@@ -89,17 +89,18 @@
 #v(1em)
   
 #align(center)[
-  #block(width: 100%, stroke: 0.5pt + gray, inset: 1em)[
+  #block(width: 80%, stroke: 0.5pt + gray, inset: 1em)[
     #align(left)[
       *Crew List:*
       #v(0.5em)
-      #columns(2)[
-        #for (idx, person) in crew.enumerate() [
-          #if person != "" [
-            #(idx + 1). #person \
-          ] else [
-            #(idx + 1). #box(width: 1fr, repeat[#text(fill: luma(180))[.]]) \
-          ]
+      #for (idx, person) in crew.enumerate() [
+        #if person != "" [
+          #(idx + 1). #person \
+        ] else [
+          #grid(
+            columns: (auto, 1fr),
+            [#(idx + 1). ], [#box(width: 100%, repeat[#text(fill: luma(180))[.]])]
+          )
         ]
       ]
     ]
