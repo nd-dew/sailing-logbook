@@ -72,10 +72,10 @@
 #v(1em)
   
 #grid(
-  columns: (1fr, 1fr),
+  columns: (1.5fr, 2fr), // Shifts the labels more to the left
   row-gutter: 0.8em,
   align: (right, left),
-  column-gutter: 1em,
+  column-gutter: 1.5em,
   [*Yacht:*], [#if yacht-model != "" or yacht-name != "" [#yacht-model #if yacht-name != "" ["#yacht-name"]] else [#box(width: 100%, repeat[.])] ],
   [*MMSI:*], [#if mmsi != "" [#mmsi] else [#box(width: 100%, repeat[.])] ],
   [*Call Sign:*], [#if call-sign != "" [#call-sign] else [#box(width: 100%, repeat[.])] ],
