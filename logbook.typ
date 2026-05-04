@@ -62,17 +62,18 @@
 )
 
 // --- Cover Page ---
+#v(-1em)
 #align(center)[
   #text(size: 11pt, style: "italic")[The logbook of the project:] \
   #v(-1.2em)
   #text(size: 42pt, weight: "bold")[#if title == "" [Sailing Logbook] else [#title]]
 ]
   
-#v(1em)
+#v(0.5em)
   
 #grid(
   columns: (auto, 1fr), // Auto fits the longest label perfectly, 1fr takes the rest
-  row-gutter: 0.8em,
+  row-gutter: 0.6em,
   align: (right, left),
   column-gutter: 1.5em,
   [*Yacht:*], [#if yacht-model != "" or yacht-name != "" [#yacht-model #if yacht-name != "" ["#yacht-name"]] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
@@ -86,7 +87,7 @@
   [*Captain:*], [#if captain != "" [#captain] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
 )
   
-#v(1em)
+#v(0.5em)
   
 #align(center)[
   #block(width: 80%, stroke: 0.5pt + gray, inset: 1em)[
@@ -110,12 +111,12 @@
 #v(1fr)
 #align(center)[
   #block(breakable: false)[
-    #image("favicon.png", width: 3.5cm) // Slightly reduced from 4cm
-    #v(0.5em)
-    #text(size: 14pt, style: "italic")[Belgian Sailing Community]
+    #image("favicon.png", width: 2.5cm)
+    #v(0.2em)
+    #text(size: 11pt, style: "italic")[Belgian Sailing Community]
+    #v(0.1em)
+    #text(size: 5pt, fill: luma(180))[v#version]
   ]
-  #v(1em)
-  #text(size: 6pt, fill: luma(180))[v#version]
 ]
 
 
@@ -303,12 +304,12 @@
     table.header(
       [*Date*], ..hours.map(h => [#text(size: 9pt, weight: "bold", h)]), [*Galley*]
     ),
-    ..for day in range(0, 14) {
+    ..for day in range(0, 8) {
       // Calculate dynamic date using duration if available, else just day numbers
       let label = if start-date != none {
         (start-date + duration(days: day)).display("[weekday repr:short] [day]/[month]")
       } else {
-        "Day " + str(day + 1)
+        box(width: 100%, repeat[#text(fill: luma(180))[.]])
       }
 
       let cells = ()
@@ -413,7 +414,7 @@ This logbook is organized into two-page spreads to make recording our journey ea
   #align(right)[*-- Crew 1*]
 ]
 
-#for i in range(1, 15) [
+#for i in range(1, 9) [
   // Left Page: Log Table (Even Page)
   #pagebreak(to: "even")
   #heading(level: 1)[Day #i - Log]
