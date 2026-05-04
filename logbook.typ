@@ -34,36 +34,37 @@
 
 // --- Configuration Variables ---
 // You can quickly update all logbook details right here.
-#let title = "Cruise Title 2026"
-#let yacht-model = "Yacht Model (e.g., Elan 45)"
-#let yacht-name = "Yacht Name"
-#let mmsi = "..."
-#let call-sign = "..."
-#let home-port = "Home Port"
+#let title = ""
+#let yacht-model = ""
+#let yacht-name = ""
+#let mmsi = ""
+#let call-sign = ""
+#let home-port = ""
 // Use datetime for start-date so we can calculate the schedule dynamically
 #let start-date = datetime(year: 2026, month: 1, day: 1)
-#let end-date = "January 8, 2026"
-#let sailing-area = "Sailing Area"
-#let charter-company = "Charter Company"
+#let end-date = ""
+#let sailing-area = ""
+#let charter-company = ""
+#let version = "1.0.0"
 
-#let captain = "Captain Name"
+#let captain = ""
 
 #let crew = (
-  "Crew Member 1",
-  "Crew Member 2",
-  "Crew Member 3",
-  "Crew Member 4",
-  "Crew Member 5",
-  "Crew Member 6",
-  "Crew Member 7",
-  "Crew Member 8",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
+  "",
 )
 
 // Define Watch Assignments here for automatic filling
 #let watch-assignments = (
-  (officer: "1st Officer Name", members: ("Crew 1", "Crew 2")),
-  (officer: "2nd Officer Name", members: ("Crew 3", "Crew 4")),
-  (officer: "3rd Officer Name", members: ("Crew 5", "Crew 6")),
+  (officer: "", members: ("", "")),
+  (officer: "", members: ("", "")),
+  (officer: "", members: ("", "")),
 )
 
 // --- Cover Page ---
@@ -115,6 +116,8 @@
     #v(0.5em)
     #text(size: 14pt, style: "italic")[Belgian Sailing Community]
   ]
+  #v(1em)
+  #text(size: 6pt, fill: luma(180))[v#version]
 ]
 
 
@@ -325,7 +328,7 @@
 #block(width: 100%, stroke: 0.5pt + gray, inset: 1em, fill: luma(250))[
   *Legend:*
   - *Hourly Columns:* Assigned watch takes care of all *Navigation Duties* and deck operations during these times.
-  - *Galley Column:* Assigned watch is responsible for *Cooking and Cleaning* for the entire day (covering all three meals from breakfast until supper).
+  - *Galley Column:* Assigned watch is responsible for *Cooking and Cleaning* for the *entire day* (from breakfast until supper, assigned watch is in charge of the kitchen).
 ]
 
 #pagebreak()
