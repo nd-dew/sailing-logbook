@@ -302,7 +302,7 @@
     table.header(
       [*Date*], ..hours.map(h => [#text(size: 9pt, weight: "bold", h)]), [*Galley*]
     ),
-    ..for day in range(0, 21) {
+    ..for day in range(0, 14) {
       // Calculate dynamic date using duration if available, else just day numbers
       let label = if start-date != none {
         (start-date + duration(days: day)).display("[weekday repr:short] [day]/[month]")
@@ -412,7 +412,7 @@ This logbook is organized into two-page spreads to make recording our journey ea
   #align(right)[*-- Crew 1*]
 ]
 
-#for i in range(1, 22) [
+#for i in range(1, 15) [
   // Left Page: Log Table (Even Page)
   #pagebreak(to: "even")
   #heading(level: 1)[Day #i - Log]
