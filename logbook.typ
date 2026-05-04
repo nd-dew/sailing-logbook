@@ -40,8 +40,8 @@
 #let mmsi = ""
 #let call-sign = ""
 #let home-port = ""
-// Use datetime for start-date so we can calculate the schedule dynamically
-#let start-date = datetime(year: 2026, month: 1, day: 1)
+// Set to none to hide from cover page in blank template
+#let start-date = none
 #let end-date = ""
 #let sailing-area = ""
 #let charter-company = ""
@@ -50,47 +50,41 @@
 #let captain = ""
 
 #let crew = (
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
-  "",
+  "", "", "", "", "", "", "", "", "", "", "", "",
 )
 
 // Define Watch Assignments here for automatic filling
+// Supports 3 members per officer (12 people total in rotation)
 #let watch-assignments = (
-  (officer: "", members: ("", "")),
-  (officer: "", members: ("", "")),
-  (officer: "", members: ("", "")),
+  (officer: "", members: ("", "", "")),
+  (officer: "", members: ("", "", "")),
+  (officer: "", members: ("", "", "")),
 )
 
 // --- Cover Page ---
-#v(1em) // Reduced from 3em
+#v(1em) 
 #align(center)[
   #text(size: 11pt, style: "italic")[The logbook of the project:] \
   #v(-1.2em)
-  #text(size: 42pt, weight: "bold")[#title]
+  #text(size: 42pt, weight: "bold")[#if title == "" [Sailing Logbook] else [#title]]
 ]
   
 #v(1em)
   
 #grid(
   columns: (1fr, 1fr),
-  row-gutter: 0.8em, // Reduced from 1em
+  row-gutter: 0.8em,
   align: (right, left),
   column-gutter: 1em,
-  [*Yacht:*], [#yacht-model "#yacht-name"],
-  [*MMSI:*], [#mmsi],
-  [*Call Sign:*], [#call-sign],
-  [*Home Port:*], [#home-port],
-  [*Start Date:*], [#start-date.display("[month repr:long] [day], [year]")],
-  [*End Date:*], [#end-date],
-  [*Sailing Area:*], [#sailing-area],
-  [*Charter Company:*], [#charter-company],
-  [*Captain:*], [#captain],
+  ..if yacht-model != "" or yacht-name != "" { ([*Yacht:*], [#yacht-model #if yacht-name != "" ["#yacht-name"]]) },
+  ..if mmsi != "" { ([*MMSI:*], [#mmsi]) },
+  ..if call-sign != "" { ([*Call Sign:*], [#call-sign]) },
+  ..if home-port != "" { ([*Home Port:*], [#home-port]) },
+  ..if start-date != none { ([*Start Date:*], [#start-date.display("[month repr:long] [day], [year]")]) },
+  ..if end-date != "" { ([*End Date:*], [#end-date]) },
+  ..if sailing-area != "" { ([*Sailing Area:*], [#sailing-area]) },
+  ..if charter-company != "" { ([*Charter Company:*], [#charter-company]) },
+  ..if captain != "" { ([*Captain:*], [#captain]) },
 )
   
 #v(1em)
@@ -101,8 +95,8 @@
       *Crew List:*
       #v(0.5em)
       #columns(2)[
-        #for person in crew [
-          + #person
+        #for (idx, person) in crew.enumerate() [
+          #(idx + 1). #person \
         ]
       ]
     ]
@@ -172,11 +166,11 @@
   
   #v(1fr)
   
-  *2. SWITCH RADIO CHANNEL TO 16, PRESS "PUSH-TO-TALK" AND READ:*
+  2. *SWITCH RADIO CHANNEL TO 16, PRESS "PUSH-TO-TALK" AND READ:*
   #pad(left: 1.5em, top: 0.5em)[
     #text(style: "italic", size: 14pt)[
       "MAYDAY, MAYDAY, MAYDAY \
-      THIS IS YACHT #upper(yacht-name), YACHT #upper(yacht-name), YACHT #upper(yacht-name)"
+      THIS IS YACHT #if yacht-name != "" [#upper(yacht-name), YACHT #upper(yacht-name), YACHT #upper(yacht-name)] else [............. , YACHT ............. , YACHT .............]"
     ]
   ]
   
@@ -305,20 +299,24 @@
     table.header(
       [*Date*], ..hours.map(h => [#text(size: 9pt, weight: "bold", h)]), [*Galley*]
     ),
-    ..for day in range(0, 8) {
-      let current-date = start-date + duration(days: day)
-      let label = current-date.display("[weekday repr:short] [day]/[month]")
-      
+    ..for day in range(0, 21) {
+      // Calculate dynamic date using duration if available, else just day numbers
+      let label = if start-date != none {
+        (start-date + duration(days: day)).display("[weekday repr:short] [day]/[month]")
+      } else {
+        "Day " + str(day + 1)
+      }
+
       let cells = ()
-      cells.push([#label])
+      cells.push([#text(size: 8pt)[#label]])
       for i in range(hours.len()) {
         let watch-num = watch-rotation.at(calc.rem((day + 1) + i - 1, 3))
         let roman-num = if watch-num == 1 { "I" } else if watch-num == 2 { "II" } else { "III" }
-        cells.push([#roman-num])
+        cells.push([#text(size: 9pt)[#roman-num]])
       }
       let galley-watch = calc.rem(day, 3) + 1
       let galley-roman = if galley-watch == 1 { "I" } else if galley-watch == 2 { "II" } else { "III" }
-      cells.push([*#galley-roman*])
+      cells.push([*#text(size: 9pt)[#galley-roman]*])
       cells
     }
   )
@@ -411,7 +409,7 @@ This logbook is organized into two-page spreads to make recording our journey ea
   #align(right)[*-- Crew 1*]
 ]
 
-#for i in range(1, 9) [
+#for i in range(1, 22) [
   // Left Page: Log Table (Even Page)
   #pagebreak(to: "even")
   #heading(level: 1)[Day #i - Log]
@@ -437,5 +435,19 @@ This logbook is organized into two-page spreads to make recording our journey ea
   #v(1em)
   #block(width: 100%, height: 85%, stroke: 0.5pt + luma(200), inset: 1em)[]
 ]
+
+#pagebreak(to: "odd")
+#v(1fr)
+#align(center)[
+  #image("favicon.png", width: 2cm)
+  #v(1em)
+  #text(size: 14pt, weight: "bold")[Belgian Sailing Community] \
+  #v(0.5em)
+  This logbook template is an open-source community project. \
+  If you have feedback, ideas, or want to contribute to future versions, please visit: \
+  #v(0.5em)
+  #link("https://github.com/nd-dew/sailing-logbook")[*github.com/nd-dew/sailing-logbook*]
+]
+#v(1fr)
 
 
