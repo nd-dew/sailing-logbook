@@ -76,15 +76,15 @@
   row-gutter: 0.6em,
   align: (right, left),
   column-gutter: 1.5em,
-  [*Yacht:*], [#if yacht-model != "" or yacht-name != "" [#yacht-model #if yacht-name != "" ["#yacht-name"]] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
-  [*MMSI:*], [#if mmsi != "" [#mmsi] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
-  [*Call Sign:*], [#if call-sign != "" [#call-sign] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
-  [*Home Port:*], [#if home-port != "" [#home-port] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
-  [*Start Date:*], [#if start-date != none [#start-date.display("[month repr:long] [day], [year]")] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
-  [*End Date:*], [#if end-date != "" [#end-date] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
-  [*Sailing Area:*], [#if sailing-area != "" [#sailing-area] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
-  [*Charter Company:*], [#if charter-company != "" [#charter-company] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
-  [*Captain:*], [#if captain != "" [#captain] else [#box(width: 100%, repeat[#text(fill: luma(180))[.]])] ],
+  [*Yacht:*], [#if yacht-model != "" or yacht-name != "" [#yacht-model #if yacht-name != "" ["#yacht-name"]] else [#box(width: 100%, repeat[#text(fill: luma(220))[.]])] ],
+  [*MMSI:*], [#if mmsi != "" [#mmsi] else [#box(width: 100%, repeat[#text(fill: luma(220))[.]])] ],
+  [*Call Sign:*], [#if call-sign != "" [#call-sign] else [#box(width: 100%, repeat[#text(fill: luma(220))[.]])] ],
+  [*Home Port:*], [#if home-port != "" [#home-port] else [#box(width: 100%, repeat[#text(fill: luma(220))[.]])] ],
+  [*Start Date:*], [#if start-date != none [#start-date.display("[month repr:long] [day], [year]")] else [#box(width: 100%, repeat[#text(fill: luma(220))[.]])] ],
+  [*End Date:*], [#if end-date != "" [#end-date] else [#box(width: 100%, repeat[#text(fill: luma(220))[.]])] ],
+  [*Sailing Area:*], [#if sailing-area != "" [#sailing-area] else [#box(width: 100%, repeat[#text(fill: luma(220))[.]])] ],
+  [*Charter Company:*], [#if charter-company != "" [#charter-company] else [#box(width: 100%, repeat[#text(fill: luma(220))[.]])] ],
+  [*Captain:*], [#if captain != "" [#captain] else [#box(width: 100%, repeat[#text(fill: luma(220))[.]])] ],
 )
   
 #v(0.5em)
@@ -100,7 +100,7 @@
         ] else [
           #grid(
             columns: (auto, 1fr),
-            [#(idx + 1). ], [#box(width: 100%, repeat[#text(fill: luma(180))[.]])]
+            [#(idx + 1). ], [#box(width: 100%, repeat[#text(fill: luma(220))[.]])]
           )
         ]
       ]
@@ -278,10 +278,10 @@
 #{
   let ranks = ("1st Officer", "2nd Officer", "3rd Officer")
   for (idx, watch) in watch-assignments.enumerate() [
-    - *#watch.officer* (#ranks.at(idx)) #box(width: 1fr, repeat[#text(fill: luma(180))[.]])
+    - *#watch.officer* (#ranks.at(idx)) #box(width: 1fr, repeat[#text(fill: luma(220))[.]])
     #for m in watch.members [
       #pad(left: 1.5em)[
-        - #m #box(width: 1fr, repeat[#text(fill: luma(180))[.]])
+        - #m #box(width: 1fr, repeat[#text(fill: luma(220))[.]])
       ]
     ]
     #v(0.5em)
@@ -305,11 +305,11 @@
       [*Date*], ..hours.map(h => [#text(size: 9pt, weight: "bold", h)]), [*Galley*]
     ),
     ..for day in range(0, 8) {
-      // Calculate dynamic date using duration if available, else just day numbers
+      // Calculate dynamic date using duration if available, else empty string
       let label = if start-date != none {
         (start-date + duration(days: day)).display("[weekday repr:short] [day]/[month]")
       } else {
-        box(width: 100%, repeat[#text(fill: luma(180))[.]])
+        ""
       }
 
       let cells = ()
