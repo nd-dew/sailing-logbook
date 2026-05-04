@@ -76,15 +76,15 @@
   row-gutter: 0.8em,
   align: (right, left),
   column-gutter: 1em,
-  ..if yacht-model != "" or yacht-name != "" { ([*Yacht:*], [#yacht-model #if yacht-name != "" ["#yacht-name"]]) },
-  ..if mmsi != "" { ([*MMSI:*], [#mmsi]) },
-  ..if call-sign != "" { ([*Call Sign:*], [#call-sign]) },
-  ..if home-port != "" { ([*Home Port:*], [#home-port]) },
-  ..if start-date != none { ([*Start Date:*], [#start-date.display("[month repr:long] [day], [year]")]) },
-  ..if end-date != "" { ([*End Date:*], [#end-date]) },
-  ..if sailing-area != "" { ([*Sailing Area:*], [#sailing-area]) },
-  ..if charter-company != "" { ([*Charter Company:*], [#charter-company]) },
-  ..if captain != "" { ([*Captain:*], [#captain]) },
+  [*Yacht:*], [#if yacht-model != "" or yacht-name != "" [#yacht-model #if yacht-name != "" ["#yacht-name"]] else [#box(width: 100%, repeat[.])] ],
+  [*MMSI:*], [#if mmsi != "" [#mmsi] else [#box(width: 100%, repeat[.])] ],
+  [*Call Sign:*], [#if call-sign != "" [#call-sign] else [#box(width: 100%, repeat[.])] ],
+  [*Home Port:*], [#if home-port != "" [#home-port] else [#box(width: 100%, repeat[.])] ],
+  [*Start Date:*], [#if start-date != none [#start-date.display("[month repr:long] [day], [year]")] else [#box(width: 100%, repeat[.])] ],
+  [*End Date:*], [#if end-date != "" [#end-date] else [#box(width: 100%, repeat[.])] ],
+  [*Sailing Area:*], [#if sailing-area != "" [#sailing-area] else [#box(width: 100%, repeat[.])] ],
+  [*Charter Company:*], [#if charter-company != "" [#charter-company] else [#box(width: 100%, repeat[.])] ],
+  [*Captain:*], [#if captain != "" [#captain] else [#box(width: 100%, repeat[.])] ],
 )
   
 #v(1em)
@@ -96,7 +96,11 @@
       #v(0.5em)
       #columns(2)[
         #for (idx, person) in crew.enumerate() [
-          #(idx + 1). #person \
+          #if person != "" [
+            #(idx + 1). #person \
+          ] else [
+            #(idx + 1). #box(width: 80%, repeat[.]) \
+          ]
         ]
       ]
     ]
