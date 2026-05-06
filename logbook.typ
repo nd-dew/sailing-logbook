@@ -243,7 +243,7 @@
 #v(0.5em)
 
 ⚠️ *What can kill the BOAT (thus you):* \
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Collisions ("Ship makes boom"):* Hitting hard things sinks ships fast. Use sonar to avoid rocks. Observe lights at night to avoid hitting other ships. Always watch the plotter and map for both. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Collisions:* Hitting hard things sinks ships fast. Use sonar to avoid rocks. Observe lights at night to avoid hitting other ships. Always watch the plotter and map for both. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Fire:* Be extremely careful with the gas stove. NEVER leave gas in the pipe: always close the valve on the bottle first and let the flame die out. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Water Ingress:* Keep hatches closed underway. \
 
