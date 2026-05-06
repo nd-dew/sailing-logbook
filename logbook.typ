@@ -284,6 +284,7 @@
 
 #heading(level: 2)[Yacht Basics]
 #v(0.5em)
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Docking Drill (Stern Cleat):* Practice two variants. 1: Throw line to helper on dock who catches and blocks. 2: Throw and immediately cleat yourself. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Knots:* Cleat hitch (mooring lines), Bowline (loop). Practice with eyes closed. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Winches:* Line from bottom, 3–4 wraps, "on top", fingers away. Commands: "taking/easing" – confirm loudly. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Port Maneuvers:* No jokes. Short, loud reports ("stern 2m, drifting left"). Wait for Captain's confirmation. \
