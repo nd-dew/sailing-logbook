@@ -234,18 +234,18 @@
 #heading(level: 2)[#text(rgb("#8B0000"))[Critical Dangers]]
 #v(0.5em)
 
-⚠️ *What can kill YOU:*
-- *The Boom:* The most dangerous object on deck—always keep your head down and stay aware during maneuvers.
-- *Jumping:* NEVER jump onto or off the boat! You can easily slip or be crushed between the hull and the dock. Always step carefully.
-- *Falling Overboard:* Stay on board! Use jacklines and harnesses at night or in heavy seas. If you fall in, we might not find you.
-- *Hypothermia:* Cold water kills fast. Even in summer, survival time is limited. Wear appropriate layers.
+⚠️ *What can kill YOU:* \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *The Boom:* The most dangerous object on deck—always keep your head down and stay aware during maneuvers. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Jumping:* NEVER jump onto or off the boat! You can easily slip or be crushed between the hull and the dock. Always step carefully. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Falling Overboard:* Stay on board! Use jacklines and harnesses at night or in heavy seas. If you fall in, we might not find you. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Hypothermia:* Cold water kills fast. Even in summer, survival time is limited. Wear appropriate layers. \
 
 #v(0.5em)
 
-⚠️ *What can kill the BOAT (thus you):*
-- *Hitting rocks:* Always monitor the plotter and depth sounder.
-- *Fire:* Be extremely careful with the gas stove.
-- *Water Ingress:* Keep hatches closed underway.
+⚠️ *What can kill the BOAT (thus you):* \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Hitting rocks:* Always monitor the plotter and depth sounder. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Fire:* Be extremely careful with the gas stove. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Water Ingress:* Keep hatches closed underway. \
 
 #v(2em)
 
