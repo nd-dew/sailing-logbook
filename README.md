@@ -9,13 +9,6 @@ If you don't want to touch any code or Git:
 2. **Print:** Print it out on A4 paper.
 3. **Pen & Paper:** Fill in the cover page, crew lists, and watch schedules by hand.
 
-## Basic Usage (Local)
-
-1. **Clone the repo:** `git clone https://github.com/nd-dew/sailing-logbook.git` *(consider renaming the folder to your specific project or just `packlist` if integrating with other trip tools)*
-2. **Edit details:** Open `logbook.typ` and update the crew, yacht, and dates in the variables block at the top.
-3. **Compile:** Run `typst compile logbook.typ` to generate your custom `logbook.pdf`.
-4. **Print:** Optimized for double-sided A4 printing with 3cm margins for binding.
-
 ## Private Tracking Workflow
 
 Use this method to keep your private cruise data (crew lists, locations) in a private repository while pulling layout improvements from this public template.
@@ -31,6 +24,10 @@ Use this method to keep your private cruise data (crew lists, locations) in a pr
    git pull --rebase template master
    ```
    This updates the layout while keeping your private configuration variables at the top of the file intact.
+
+## Roadmap
+
+- Consider renaming project to just `packlist`.
 
 ---
 *Belgian Sailing Community*
