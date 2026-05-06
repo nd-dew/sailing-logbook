@@ -226,7 +226,7 @@
 
 #block(width: 100%, stroke: 0.5pt + gray, inset: 1em, fill: luma(245))[
   #text(size: 10pt)[
-    *Captain's Tip:* A full briefing can take a significant amount of time. To speed up the process, consider "Stations": Assign each Watch Officer a specific section to explain. The crew can rotate between stations (e.g., Life Saving, Emergency Proc, Yacht Basics) in small groups. This keeps everyone engaged and finishes the briefing much faster.
+    *Captain's Tip:* A full briefing can take a significant amount of time. To speed up the process, consider "Stations": Assign each Watch Officer a specific section to explain.
   ]
 ]
 #v(1em)
@@ -235,7 +235,7 @@
 #v(0.5em)
 
 ⚠️ *What can kill YOU:* \
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *The Boom:* The most dangerous object on deck—always keep your head down and stay aware during maneuvers. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *The Boom:* The most dangerous object on deck—duck! \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Jumping:* NEVER jump onto or off the boat! You can easily slip or be crushed between the hull and the dock. Always step carefully. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Falling Overboard:* Stay on board! Use jacklines and harnesses at night or in heavy seas. If you fall in, we might not find you. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Hypothermia:* In 15°C water: after 15 mins swimming gets hard, after 1 hour you get unconscious. You will die fast. Stay on the ship, do not fall out! \
