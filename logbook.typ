@@ -237,6 +237,8 @@
 ⚠️ *What can kill YOU:*
 - *The Boom:* The most dangerous object on deck—always keep your head down and stay aware during maneuvers.
 - *Jumping:* NEVER jump onto or off the boat! You can easily slip or be crushed between the hull and the dock. Always step carefully.
+- *Falling Overboard:* Stay on board! Use jacklines and harnesses at night or in heavy seas. If you fall in, we might not find you.
+- *Hypothermia:* Cold water kills fast. Even in summer, survival time is limited. Wear appropriate layers.
 
 #v(0.5em)
 
