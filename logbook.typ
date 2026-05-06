@@ -251,12 +251,11 @@
 
 #heading(level: 2)[Life Saving Equipment]
 #v(0.5em)
-- #sym.ballot *Life Jackets:* Each assigned to a cabin; always worn at night and in bad weather. Show: how to fasten, adjust, whistle, and sprayhood.
-- #sym.ballot *Life Raft:* Location and release method. Use only on Captain's command – gather at the stern, EPIRB activated, bring grab-bag.
+- #sym.ballot *Life Jackets & Raft:* Always have it easily accessible, always wear at night and in bad weather. Life Raft: Location and release.
 - #sym.ballot *Life-lines & Harnesses:* How to clip into jacklines; mandatory on deck at night and sea state ≥4.
 - #sym.ballot *Pyrotechnics:* Location of rockets/flares/smoke; fire with wind at back, gloves on, only after VHF coordination.
-- #sym.ballot *VHF Radio (DSC):* CH16 monitoring; MAYDAY format. Practice DISTRESS button use.
-- #sym.ballot *EPIRB / SART / PLB:* Check what's on board. EPIRB (auto/manual), SART (for raft), PLB (personal).
+- #sym.ballot *VHF Radio (DSC):* CH16 monitoring; MAYDAY format.
+- #sym.ballot *EPIRB / SART / PLB:* Check what you have and how to use it.
 
 #v(2em)
 
