@@ -251,8 +251,8 @@
 
 #heading(level: 2)[Life Saving Equipment]
 #v(0.5em)
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Life Jackets & Raft:* Always have it easily accessible, always wear at night and in bad weather. Life Raft: Location and release. \
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Life-lines & Harnesses:* How to clip into jacklines; mandatory on deck at night and sea state ≥4. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Life Jackets, Harnesses & Jacklines:* Always have it easily accessible, always wear at night and in bad weather. How to clip into jacklines; mandatory on deck at night and sea state ≥4. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Life Raft:* Location, how to release, and when to use. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Pyrotechnics:* Location of rockets/flares/smoke; fire with wind at back, gloves on, only after VHF coordination. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *VHF Radio (DSC):* CH16 monitoring; MAYDAY format. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *EPIRB / SART / PLB:* Check what you have and how to use it. \
