@@ -277,8 +277,8 @@
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Forgive minor faults:* It's a week together; speak directly and calmly. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Watches & Sleeping:* Shared cabins, quiet hours; ALWAYS wake the Captain if in doubt. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Water & Toilets:* Conserve water; follow yacht toilet rules (no paper in the bowl). \
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Gas Stove:* Cut source (valve) first, then the burner. Fire extinguisher and blanket ready. \
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Damage:* Shared responsibility; insurance deposit, but report everything immediately (photos, time, circumstances). \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Damage:* Shared responsibility; insurance deposit. Report everything immediately. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Attitude:* Being proactive makes you liked in sailing! \
 
 #v(2em)
 
