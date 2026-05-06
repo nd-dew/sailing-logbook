@@ -251,21 +251,21 @@
 
 #heading(level: 2)[Life Saving Equipment]
 #v(0.5em)
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Life Jackets & Raft:* Always have it easily accessible, always wear at night and in bad weather. Life Raft: Location and release.
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Life-lines & Harnesses:* How to clip into jacklines; mandatory on deck at night and sea state ≥4.
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Pyrotechnics:* Location of rockets/flares/smoke; fire with wind at back, gloves on, only after VHF coordination.
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *VHF Radio (DSC):* CH16 monitoring; MAYDAY format.
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *EPIRB / SART / PLB:* Check what you have and how to use it.
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Life Jackets & Raft:* Always have it easily accessible, always wear at night and in bad weather. Life Raft: Location and release. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Life-lines & Harnesses:* How to clip into jacklines; mandatory on deck at night and sea state ≥4. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Pyrotechnics:* Location of rockets/flares/smoke; fire with wind at back, gloves on, only after VHF coordination. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *VHF Radio (DSC):* CH16 monitoring; MAYDAY format. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *EPIRB / SART / PLB:* Check what you have and how to use it. \
 
 #v(2em)
 
 #heading(level: 2)[Emergency Procedures]
 #v(0.5em)
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Water Ingress:* Taste test – salty (external leak) or fresh (plumbing). Close seacocks, cut unnecessary power, start bilge pumps, locate source.
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *MOB (Man Overboard):* Shout "Man Overboard!", point, MOB button on plotter, throw lifebuoy/light. Approach maneuver – one person commands, others quiet.
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Fire:* Alarm, cut source (gas/electric/engine), use correct extinguisher (powder/CO2), shut air supply. Everyone in cockpit in life jackets.
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Evacuation:* 1st Officer (EPIRB/Raft), 2nd Officer (Grab-bag/Food/Docs), 3rd Officer (Pyrotechnics/Torches/VHF). Count crew.
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Hypothermia:* Watch for shivering/confusion, especially after a MOB. Move below deck, remove wet clothes, warm *gradually* (blankets/sleeping bags/body heat). *No alcohol or hot baths!*
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Water Ingress:* Taste test – salty (external leak) or fresh (plumbing). Close seacocks, cut unnecessary power, start bilge pumps, locate source. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *MOB (Man Overboard):* Shout "Man Overboard!", point, MOB button on plotter, throw lifebuoy/light. Approach maneuver – one person commands, others quiet. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Fire:* Alarm, cut source (gas/electric/engine), use correct extinguisher (powder/CO2), shut air supply. Everyone in cockpit in life jackets. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Evacuation:* 1st Officer (EPIRB/Raft), 2nd Officer (Grab-bag/Food/Docs), 3rd Officer (Pyrotechnics/Torches/VHF). Count crew. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Hypothermia:* Watch for shivering/confusion, especially after a MOB. Move below deck, remove wet clothes, warm *gradually* (blankets/sleeping bags/body heat). *No alcohol or hot baths!* \
 
 #pagebreak()
 
@@ -274,19 +274,19 @@
 
 #heading(level: 2)[Life On Board – Rules]
 #v(0.5em)
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Forgive minor faults:* It's a week together; speak directly and calmly.
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Watches & Sleeping:* Shared cabins, quiet hours; ALWAYS wake the Captain if in doubt.
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Water & Toilets:* Conserve water; follow yacht toilet rules (no paper in the bowl).
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Gas Stove:* Cut source (valve) first, then the burner. Fire extinguisher and blanket ready.
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Damage:* Shared responsibility; insurance deposit, but report everything immediately (photos, time, circumstances).
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Forgive minor faults:* It's a week together; speak directly and calmly. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Watches & Sleeping:* Shared cabins, quiet hours; ALWAYS wake the Captain if in doubt. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Water & Toilets:* Conserve water; follow yacht toilet rules (no paper in the bowl). \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Gas Stove:* Cut source (valve) first, then the burner. Fire extinguisher and blanket ready. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Damage:* Shared responsibility; insurance deposit, but report everything immediately (photos, time, circumstances). \
 
 #v(2em)
 
 #heading(level: 2)[Yacht Basics]
 #v(0.5em)
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Knots:* Cleat hitch (mooring lines), Bowline (loop). Practice with eyes closed.
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Winches:* Line from bottom, 3–4 wraps, "on top", fingers away. Commands: "taking/easing" – confirm loudly.
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Port Maneuvers:* No jokes. Short, loud reports ("stern 2m, drifting left"). Wait for Captain's confirmation.
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Knots:* Cleat hitch (mooring lines), Bowline (loop). Practice with eyes closed. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Winches:* Line from bottom, 3–4 wraps, "on top", fingers away. Commands: "taking/easing" – confirm loudly. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Port Maneuvers:* No jokes. Short, loud reports ("stern 2m, drifting left"). Wait for Captain's confirmation. \
 
 // --- Watch Setup & Schedule ---
 #pagebreak(to: "even")
