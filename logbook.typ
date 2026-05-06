@@ -221,7 +221,7 @@
 #pagebreak()
 
 // --- Crew Briefing ---
-#heading(level: 1)[Crew Briefing – Captain's Checkpoints (1/2)]
+#heading(level: 1)[Crew Briefing (1/2)]
 #v(1em)
 
 #block(width: 100%, stroke: 0.5pt + gray, inset: 1em, fill: luma(245))[
@@ -260,7 +260,7 @@
 
 #pagebreak()
 
-#heading(level: 1)[Crew Briefing – Captain's Checkpoints (2/2)]
+#heading(level: 1)[Crew Briefing (2/2)]
 #v(1em)
 
 #heading(level: 2)[Life On Board – Rules]
