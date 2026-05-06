@@ -231,12 +231,10 @@
 ]
 #v(1em)
 
-#heading(level: 2)[#text(red)[Critical Dangers]]
+#heading(level: 2)[#text(rgb("#8B0000"))[Critical Dangers]]
 #v(0.5em)
-#text(red)[
-- #sym.ballot *Things that can kill YOU:* *The Boom* is the most dangerous object on deck—always keep your head down and stay aware during maneuvers. *Jumping:* NEVER jump onto or off the boat! You can easily slip or be crushed between the hull and the dock. Always step carefully.
-- #sym.ballot *Things that can kill the BOAT:* *Hitting rocks* (always monitor the plotter and depth sounder), *Fire* (be extremely careful with the gas stove), and *Water Ingress* (keep hatches closed underway).
-]
+- ⚠️ *What can kill YOU:* *The Boom* is the most dangerous object on deck—always keep your head down and stay aware during maneuvers. *Jumping:* NEVER jump onto or off the boat! You can easily slip or be crushed between the hull and the dock. Always step carefully.
+- ⚠️ *What can kill the BOAT (thus you):* *Hitting rocks* (always monitor the plotter and depth sounder), *Fire* (be extremely careful with the gas stove), and *Water Ingress* (keep hatches closed underway).
 
 #v(2em)
 
