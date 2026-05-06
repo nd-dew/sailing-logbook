@@ -257,6 +257,7 @@
 - #sym.ballot *MOB (Man Overboard):* Shout "Man Overboard!", point, MOB button on plotter, throw lifebuoy/light. Approach maneuver – one person commands, others quiet.
 - #sym.ballot *Fire:* Alarm, cut source (gas/electric/engine), use correct extinguisher (powder/CO2), shut air supply. Everyone in cockpit in life jackets.
 - #sym.ballot *Evacuation:* 1st Officer (EPIRB/Raft), 2nd Officer (Grab-bag/Food/Docs), 3rd Officer (Pyrotechnics/Torches/VHF). Count crew.
+- #sym.ballot *Hypothermia:* Watch for shivering/confusion, especially after a MOB. Move below deck, remove wet clothes, warm *gradually* (blankets/sleeping bags/body heat). *No alcohol or hot baths!*
 
 #pagebreak()
 
