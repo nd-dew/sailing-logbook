@@ -237,8 +237,7 @@
 ⚠️ *What can kill YOU:* \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *The Boom:* The most dangerous object on deck—duck! \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Jumping:* NEVER jump, always step! Or you might be crushed between the boat and the dock. \
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Falling Overboard:* Stay on board! Use jacklines and harnesses at night or in heavy seas. If you fall in, we might not find you. \
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Hypothermia:* In 15°C water: after 15 mins swimming gets hard, after 1 hour you get unconscious. You will die fast. Stay on the ship, do not fall out! \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Stay Onboard!* Use jacklines and harnesses. In 15°C water: after 15 mins swimming gets hard, after 1 hour you get unconscious. You will die fast. Stay on the ship, do not fall out! \
 
 #v(0.5em)
 
