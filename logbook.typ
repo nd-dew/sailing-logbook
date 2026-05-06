@@ -244,7 +244,7 @@
 
 ⚠️ *What can kill the BOAT (thus you):* \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Collisions:* Hitting hard things sinks ships fast. Use sonar to avoid rocks. Observe lights at night to avoid hitting other ships. Always watch the plotter and map for both. \
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Fire:* Be extremely careful with the gas stove. NEVER leave gas in the pipe: always close the valve on the bottle first and let the flame die out. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Fire:* Be extremely careful with the gas stove. NEVER leave gas in the pipe: close the bottle first. If fire starts: position yacht so wind blows fire *off* the boat. Use correct extinguisher. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Water Ingress:* Keep hatches closed underway. If leaking: taste test (salt vs fresh), close seacocks, cut power, start bilge pumps, find source. \
 
 #v(2em)
@@ -257,7 +257,6 @@
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *VHF Radio (DSC):* CH16 monitoring; MAYDAY format. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *EPIRB / SART / PLB:* Check what you have and how to use it. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *MOB (Man Overboard):* Shout "Man Overboard!", point, MOB button on plotter, throw lifebuoy/light. Approach maneuver – one person commands, others quiet. \
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Fire:* Alarm, cut source (gas/electric/engine), use correct extinguisher (powder/CO2), shut air supply. Everyone in cockpit in life jackets. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Evacuation:* 1st Officer (EPIRB/Raft), 2nd Officer (Grab-bag/Food/Docs), 3rd Officer (Pyrotechnics/Torches/VHF). Count crew. \
 
 #pagebreak()
