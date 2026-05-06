@@ -11,7 +11,7 @@ If you don't want to touch any code or Git:
 
 ## Basic Usage (Local)
 
-1. **Clone the repo:** `git clone https://github.com/nd-dew/sailing-logbook.git`
+1. **Clone the repo:** `git clone https://github.com/nd-dew/sailing-logbook.git` *(consider renaming the folder to your specific project or just `packlist` if integrating with other trip tools)*
 2. **Edit details:** Open `logbook.typ` and update the crew, yacht, and dates in the variables block at the top.
 3. **Compile:** Run `typst compile logbook.typ` to generate your custom `logbook.pdf`.
 4. **Print:** Optimized for double-sided A4 printing with 3cm margins for binding.
