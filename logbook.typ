@@ -260,6 +260,10 @@
 
 #v(2em)
 
+#pagebreak()
+#heading(level: 1)[Crew Briefing (cont.)]
+#v(1em)
+
 #heading(level: 2)[Life On Board – Rules]
 #v(0.5em)
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Say before doing:* Whenever you want to maneuver, steer, or click something on the control panel, announce your intention loudly *before* you do it, so the crew can react. \
