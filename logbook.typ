@@ -224,16 +224,6 @@
 #heading(level: 1)[Crew Briefing]
 #v(1em)
 
-#block(width: 100%, stroke: 0.5pt + luma(220), inset: 1em, fill: luma(245))[
-  #text(size: 10pt)[
-    *Captain's Tip:* A full briefing can take a significant amount of time. To speed up the process, consider "Stations": Assign each Watch Officer a specific section to explain.
-  ]
-]
-
-#v(2em)
-
-#heading(level: 2)[Cabin Division]
-#v(0.5em)
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Assignments:* Who sleeps where? Assign cabins and bunks now. \
 
 #v(2em)
@@ -259,7 +249,7 @@
 #v(0.5em)
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Life Jackets, Harnesses & Jacklines:* Always have it easily accessible, always wear at night and in bad weather. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Life Raft:* Location, how to release, and when to use. \
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Pyrotechnics:* Location of rockets/flares/smoke; fire with wind at back, gloves on, only after VHF coordination. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Pyrotechnics:* Know location and how to use. Remember to read the instructions! \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *VHF Radio (DSC):* CH16 monitoring; MAYDAY format. Requires a certificate! Do not mess with it and always ask the Captain before transmitting. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *EPIRB / SART / PLB:* Check what you have and how to use it. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *MOB (Man Overboard):* Shout "Man Overboard!", point, MOB button on plotter, throw lifebuoy/light. Approach maneuver – one person commands, others quiet. \
