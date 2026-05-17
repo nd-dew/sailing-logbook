@@ -358,8 +358,8 @@ This logbook is organized into two-page spreads to make recording our journey ea
 - *Time:* 4-digit military time (e.g., 0830, 1415).
 - *Pos (Position):* Use Latitude and Longitude with precision to minutes (e.g., N44°50' E13°48') or write the name of the marina or anchorage if we are stationary.
 - *HDG (Current Heading):* Our current compass heading (e.g., 210). When maneuvering in a marina or doing pilotage based on visual references, heading changes too often—write *PIL* instead.
-- *Spd (Speed):* Our instantaneous Speed Over Ground (SOG) in knots at the moment of the entry. If surfing waves, estimate a steady average.
-- *Log:* The boat's *total lifetime mileage* (odometer). Recording the total value from the instrument rather than a trip log removes the overhead of manual calculations and prevents cumulative mathematical errors.
+- *Spd (Speed):* Our instantaneous Speed Over Ground (SOG) in knots at the moment of the entry. Record with a *single decimal* (e.g., 6.5). If surfing waves, estimate a steady average.
+- *Log:* The boat's *total lifetime mileage* (odometer). Round up/down to the *nearest whole mile* (no decimals). Recording the total value from the instrument rather than a trip log removes the overhead of manual calculations and prevents cumulative mathematical errors.
 - *Wind:* The direction the wind is blowing *from* and speed in knots (e.g., NW 15).
 - *Sails:* Use *M* for Main and *J* for Jib. Note reefing like "M1, J1" or "-" if the sails are down.
 - *Eng (Engine):* Record the current *RPM* (e.g., 1800) or simply write *OFF*.
@@ -378,6 +378,7 @@ This logbook is organized into two-page spreads to make recording our journey ea
 - *Changes:* Any time the sails go up/down or the engine RPM changes.
 - *Refueling:* Any time we top up the diesel or the fresh water tanks.
 - *Checks:* Equipment failures or routine inspections (like battery levels).
+- *Corrections:* If you make a mistake, DO NOT overwrite single digits. Strike through the entire row and write a fresh, correct entry on the line below it.
 
 #v(1em)
 
@@ -415,9 +416,10 @@ To save space in the Pos/Notes columns, use these standard symbols:
     [0830], [Marina Pula], [-], [0.0], [120], [NW 10], [-], [1200],
     [0915], [N44°50' E13°48'], [210], [6.5], [122], [NW 15], [M1, J1], [OFF],
     [1000], [N44°45' E13°45'], [215], [7.0], [127], [NW 18], [M1, J1], [OFF],
+    [#strike[1130]], [#strike[N44°38' E13°40']], [#strike[120]], [#strike[5.5]], [#strike[136]], [#strike[N 8]], [#strike[-]], [#strike[1800]],
     [1130], [N44°38' E13°40'], [210], [5.5], [136], [N 8], [-], [1800],
     [1200], [N44°35' E13°38'], [210], [6.0], [139], [N 5], [-], [1800],
-    ..for _ in range(18) { ([], [], [], [], [], [], [], []) }
+    ..for _ in range(17) { ([], [], [], [], [], [], [], []) }
   )
 ]
 
