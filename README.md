@@ -27,7 +27,5 @@ Use this method to keep your private cruise data (crew lists, locations) in a pr
 
 ## Roadmap
 
-- Consider renaming project to just `packlist`.
-
 ---
 *Belgian Sailing Community*
