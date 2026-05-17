@@ -1,6 +1,6 @@
 #set page(
   paper: "a4",
-  margin: (x: 3cm, y: 2.5cm),
+  margin: (x: 1.5cm, y: 2.5cm),
   numbering: "1",
   header: context {
     if counter(page).get().first() > 1 {
@@ -374,7 +374,6 @@ This logbook is organized into two-page spreads to make recording our journey ea
 - *Checks:* Equipment failures or routine inspections (like battery levels).
 
 // --- Daily Log Pages ---
-#set page(margin: (x: 1.5cm, y: 1.5cm))
 
 // Ensure the Day 0 Demo spread stays aligned.
 #pagebreak(to: "even")
