@@ -408,6 +408,9 @@ To save space, especially in the *Notes* page, use these standard symbols:
   [*#sym.arrow.r*], align(left)[Departure (Leaving the dock or anchorage)],
   [*#sym.arrow.t*], align(left)[Up / ON (e.g., Sails up, Engine on)],
   [*#sym.arrow.b*], align(left)[Down / OFF (e.g., Sails down, Engine off)],
+  [], [],
+  [], [],
+  [], [],
 )
 
 // --- Daily Log Pages ---
@@ -436,8 +439,10 @@ To save space, especially in the *Notes* page, use these standard symbols:
     [1230], [Susak Bay], [PIL], [0.0], [140], [N 5], [-], [-],
     [1500], [Susak Bay], [PIL], [4.0], [140], [NE 12], [-], [1500],
     [1530], [N44°30' E14°05'], [090], [6.0], [142], [NE 15], [M, J], [-],
-    [1700], [Mali Lošinj], [PIL], [0.0], [151], [NE 10], [-], [-],
-    ..for _ in range(14) { ([], [], [], [], [], [], [], []) }
+    [1800], [N44°32' E14°15'], [085], [5.5], [157], [NE 12], [M, J], [-],
+    [2030], [N44°33' E14°25'], [090], [5.0], [170], [NE 8], [-], [1500],
+    [2130], [Mali Lošinj], [PIL], [0.0], [175], [NE 5], [-], [-],
+    ..for _ in range(12) { ([], [], [], [], [], [], [], []) }
   )
 ]
 
@@ -445,17 +450,28 @@ To save space, especially in the *Notes* page, use these standard symbols:
 #heading(level: 1)[Day 0 - Demo Notes Page]
 #v(1em)
 #block(width: 100%, height: 85%, stroke: 0.5pt + luma(200), inset: 1.5em)[
-  #set text(size: 11pt)
+  #set text(size: 13pt)
   #v(0.5em)
   0800 - 〰 Marina Pula. Waking up, engine off. \
+  #align(right)[*-- John Doe*]
   0830 - #sym.arrow.r Marina Pula. Eng #sym.arrow.t \
+  #align(right)[*-- John Doe*]
   0915 - M #sym.arrow.t, J #sym.arrow.t, Eng #sym.arrow.b. Watch III taking over. \
+  #align(right)[*-- Alice Smith*]
   1130 - Wind dropped. M #sym.arrow.b, J #sym.arrow.b, Eng #sym.arrow.t. (Mistake in log table crossed out below). \
+  #align(right)[*-- Alice Smith*]
   1230 - ⚓ Susak Bay. Anchoring for lunch. \
+  #align(right)[*-- Alice Smith*]
   1500 - #sym.arrow.r Susak Bay. Anchor up, Eng #sym.arrow.t. \
+  #align(right)[*-- Bob Jones*]
   1530 - M #sym.arrow.t, J #sym.arrow.t, Eng #sym.arrow.b. \
-  1700 - 〰 Mali Lošinj. Moored safely. \
-  2000 - Navigational lights ON. \
+  #align(right)[*-- Bob Jones*]
+  2000 - Navigational lights #sym.arrow.t. \
+  #align(right)[*-- Captain Dave*]
+  2030 - M #sym.arrow.b, J #sym.arrow.b, Eng #sym.arrow.t. Approaching marina. \
+  #align(right)[*-- Captain Dave*]
+  2130 - 〰 Mali Lošinj. Nav lights #sym.arrow.b, Eng #sym.arrow.b. Moored safely. \
+  #align(right)[*-- Captain Dave*]
 ]
 
 #for i in range(1, 9) [
