@@ -260,7 +260,7 @@
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Life Jackets, Harnesses & Jacklines:* Always have it easily accessible, always wear at night and in bad weather. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Life Raft:* Location, how to release, and when to use. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Pyrotechnics:* Location of rockets/flares/smoke; fire with wind at back, gloves on, only after VHF coordination. \
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *VHF Radio (DSC):* CH16 monitoring; MAYDAY format. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *VHF Radio (DSC):* CH16 monitoring; MAYDAY format. Requires a certificate! Do not mess with it and always ask the Captain before transmitting. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *EPIRB / SART / PLB:* Check what you have and how to use it. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *MOB (Man Overboard):* Shout "Man Overboard!", point, MOB button on plotter, throw lifebuoy/light. Approach maneuver – one person commands, others quiet. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Evacuation:* 1st Officer (EPIRB/Raft), 2nd Officer (Grab-bag/Food/Docs), 3rd Officer (Pyrotechnics/Torches/VHF). Count crew. \
@@ -381,11 +381,11 @@ This logbook is organized into two-page spreads to make recording our journey ea
 - *Time:* 4-digit military time (e.g., 0830, 1415).
 - *Pos (Position):* Use Latitude and Longitude with precision to minutes (e.g., N44°50' E13°48') or write the name of the marina or anchorage if we are stationary.
 - *HDG (Current Heading):* Our current compass heading (e.g., 210). When maneuvering in a marina or doing pilotage based on visual references, heading changes too often—write *PIL* instead.
-- *Spd (Speed):* Our instantaneous Speed Over Ground (SOG) in knots at the moment of the entry. Record with a *single decimal* (e.g., 6.5). If surfing waves, estimate a steady average.
+- *Spd (Speed):* Our instantaneous Speed Over Ground (SOG) in knots at the moment of the entry. Record with a *single decimal* (e.g., 6.5).
 - *Log:* The boat's *total lifetime mileage* (odometer). Round up/down to the *nearest whole mile* (no decimals). Recording the total value from the instrument rather than a trip log removes the overhead of manual calculations and prevents cumulative mathematical errors.
 - *Wind:* The direction the wind is blowing *from* and speed in knots (e.g., NW 15).
 - *Sails:* Use *M* for Main and *J* for Jib. Note reefing like "M1, J1" or "-" if the sails are down.
-- *Eng (Engine):* Record the current *RPM* (e.g., 1800) or simply write *OFF*.
+- *Eng (Engine):* Record the current *RPM* (e.g., 1800) or write "-" if the engine is off.
 
 #v(1em)
 #align(center)[
@@ -435,16 +435,16 @@ To save space in the Pos/Notes columns, use these standard symbols:
     table.header(
       [*Time*], [*Pos*], [*HDG*], [*Spd*], [*Log*], [*Wind*], [*Sails*], [*Eng*],
     ),
-    [0800], [〰 Marina Pula], [-], [0.0], [120], [NW 10], [-], [OFF],
+    [0800], [〰 Marina Pula], [-], [0.0], [120], [NW 10], [-], [-],
     [0830], [→ Marina Pula], [PIL], [3.5], [120], [NW 10], [-], [1200],
-    [0915], [N44°50' E13°48'], [210], [6.5], [122], [NW 15], [M1, J1], [OFF],
-    [1000], [N44°45' E13°45'], [215], [7.0], [127], [NW 18], [M1, J1], [OFF],
+    [0915], [N44°50' E13°48'], [210], [6.5], [122], [NW 15], [M1, J1], [-],
+    [1000], [N44°45' E13°45'], [215], [7.0], [127], [NW 18], [M1, J1], [-],
     [#strike[1130]], [#strike[N44°38' E13°40']], [#strike[120]], [#strike[5.5]], [#strike[136]], [#strike[N 8]], [#strike[-]], [#strike[1800]],
     [1130], [N44°38' E13°40'], [210], [5.5], [136], [N 8], [-], [1800],
-    [1230], [⚓ Susak Bay], [PIL], [0.0], [140], [N 5], [-], [OFF],
+    [1230], [⚓ Susak Bay], [PIL], [0.0], [140], [N 5], [-], [-],
     [1500], [→ Susak Bay], [PIL], [4.0], [140], [NE 12], [-], [1500],
-    [1530], [N44°30' E14°05'], [090], [6.0], [142], [NE 15], [M, J], [OFF],
-    [1700], [〰 Mali Lošinj], [PIL], [0.0], [151], [NE 10], [-], [OFF],
+    [1530], [N44°30' E14°05'], [090], [6.0], [142], [NE 15], [M, J], [-],
+    [1700], [〰 Mali Lošinj], [PIL], [0.0], [151], [NE 10], [-], [-],
     ..for _ in range(14) { ([], [], [], [], [], [], [], []) }
   )
 ]
