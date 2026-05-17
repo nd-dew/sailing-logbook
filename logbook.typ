@@ -372,6 +372,8 @@ This logbook is organized into two-page spreads to make recording our journey ea
 - *Checks:* Equipment failures or routine inspections (like battery levels).
 
 // --- Daily Log Pages ---
+#set page(margin: (x: 1.5cm, y: 1.5cm))
+
 // Ensure the Day 0 Demo spread stays aligned.
 #pagebreak(to: "even")
 #heading(level: 1)[Day 0 - Demo Data Page]
