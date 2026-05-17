@@ -451,6 +451,14 @@ This logbook is organized into two-page spreads to make recording our journey ea
   #block(width: 100%, height: 85%, stroke: 0.5pt + luma(200), inset: 1em)[]
 ]
 
+// --- Appendix Notes (Blank Pages) ---
+#for _ in range(2) [
+  #pagebreak()
+  #heading(level: 1)[Notes]
+  #v(1em)
+  #block(width: 100%, height: 85%, stroke: 0.5pt + luma(200), inset: 1em)[]
+]
+
 #pagebreak(to: "odd")
 #v(1fr)
 #align(center)[
