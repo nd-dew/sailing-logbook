@@ -243,8 +243,6 @@
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Fire:* Be extremely careful with the gas stove. NEVER leave gas in the pipe: close the bottle first. If fire starts: position yacht so wind blows fire *off* the boat. Use correct extinguisher. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Water Ingress:* Keep hatches closed underway. If leaking: taste test (salt vs fresh), close seacocks, cut power, start bilge pumps, find source. \
 
-#pagebreak()
-
 #heading(level: 2)[Life Saving & Emergency Procedures]
 #v(0.5em)
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Life Jackets, Harnesses & Jacklines:* Always have it easily accessible, always wear at night and in bad weather. \
@@ -253,9 +251,7 @@
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *VHF Radio (DSC):* CH16 monitoring; MAYDAY format. Requires a certificate! Do not mess with it and always ask the Captain before transmitting. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *EPIRB / SART / PLB:* Check what you have and how to use it. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *MOB (Man Overboard):* Shout "Man Overboard!", point, MOB button on plotter, throw lifebuoy/light. Approach maneuver – one person commands, others quiet. \
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Evacuation:* 1st Officer (EPIRB/Raft), 2nd Officer (Grab-bag/Food/Docs), 3rd Officer (Pyrotechnics/Torches/VHF). Count crew. \
-
-#pagebreak()
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Evacuation:* Put on all the clothes you can, wear life jackets, and gather in the cockpit. Only then: 1st Officer (EPIRB/Raft), 2nd Officer (Grab-bag/Food/Docs), 3rd Officer (Pyrotechnics/VHF). Count crew. \
 
 #heading(level: 2)[Crew Watches]
 #v(0.5em)
@@ -274,7 +270,7 @@
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Damage:* Shared responsibility; insurance deposit. Report everything immediately. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Attitude:* Being proactive makes you liked in sailing! \
 
-#pagebreak()
+#v(2em)
 
 #heading(level: 2)[Yacht Basics]
 #v(0.5em)
