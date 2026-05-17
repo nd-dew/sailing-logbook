@@ -381,7 +381,7 @@ This logbook is organized into two-page spreads to make recording our journey ea
 
 #block(height: 94%)[
   #table(
-    columns: (45pt, 100pt, 45pt, 45pt, 45pt, 55pt, 60pt, 1fr),
+    columns: (4fr, 16fr, 3fr, 3fr, 6fr, 6fr, 5fr, 4fr),
     rows: (auto, ..(1fr,) * 24),
     stroke: 0.5pt + luma(220),
     align: center + horizon,
@@ -432,7 +432,7 @@ This logbook is organized into two-page spreads to make recording our journey ea
   // Stretch rows to fill the page (24 hourly slots + header)
   #block(height: 94%)[
     #table(
-      columns: (45pt, 100pt, 45pt, 45pt, 45pt, 55pt, 60pt, 1fr),
+      columns: (4fr, 16fr, 3fr, 3fr, 6fr, 6fr, 5fr, 4fr),
       rows: (auto, ..(1fr,) * 24), // First row is auto (header), the rest stretch to fill the block
       stroke: 0.5pt + luma(220),
       align: center + horizon,
