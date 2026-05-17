@@ -383,6 +383,21 @@ This logbook is organized into two-page spreads to make recording our journey ea
 - *Refueling:* Any time we top up the diesel or the fresh water tanks.
 - *Checks:* Equipment failures or routine inspections (like battery levels).
 
+#v(1em)
+
+#heading(level: 2)[Shorthand Symbols]
+#v(0.5em)
+To save space in the Pos/Notes columns, use these standard symbols:
+#v(0.5em)
+#table(
+  columns: (3cm, 10cm),
+  stroke: 0.5pt + gray,
+  align: center + horizon,
+  [*⚓*], align(left)[Anchoring (Dropping the anchor)],
+  [*〰*], align(left)[Moored (Tied to a dock or buoy)],
+  [*#sym.arrow.r*], align(left)[Departure (Leaving the dock or anchorage)],
+)
+
 // --- Daily Log Pages ---
 
 // Ensure the Day 0 Demo spread stays aligned.
