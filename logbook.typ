@@ -430,7 +430,6 @@ To save space, especially in the *Notes* page, use these standard symbols:
     table.header(
       [*Time*], [*Pos*], [*HDG*], [*Spd*], [*Log*], [*Wind*], [*Sails*], [*Eng*],
     ),
-    [0800], [Marina Pula], [-], [0.0], [120], [NW 10], [-], [-],
     [0830], [Marina Pula], [PIL], [3.5], [120], [NW 10], [-], [1200],
     [0915], [N44°50' E13°48'], [210], [6.5], [122], [NW 15], [M1, J1], [-],
     [1000], [N44°45' E13°45'], [215], [7.0], [127], [NW 18], [M1, J1], [-],
@@ -442,7 +441,7 @@ To save space, especially in the *Notes* page, use these standard symbols:
     [1800], [N44°32' E14°15'], [085], [5.5], [157], [NE 12], [M, J], [-],
     [2030], [N44°33' E14°25'], [090], [5.0], [170], [NE 8], [-], [1500],
     [2130], [Mali Lošinj], [PIL], [0.0], [175], [NE 5], [-], [-],
-    ..for _ in range(12) { ([], [], [], [], [], [], [], []) }
+    ..for _ in range(13) { ([], [], [], [], [], [], [], []) }
   )
 ]
 
@@ -452,8 +451,6 @@ To save space, especially in the *Notes* page, use these standard symbols:
 #block(width: 100%, height: 85%, stroke: 0.5pt + luma(200), inset: 1.5em)[
   #set text(size: 13pt)
   #v(0.5em)
-  0800 - 〰 Marina Pula. Waking up, engine off. \
-  #align(right)[*-- John Doe*]
   0830 - #sym.arrow.r Marina Pula. Eng #sym.arrow.t \
   #align(right)[*-- John Doe*]
   0915 - M #sym.arrow.t, J #sym.arrow.t, Eng #sym.arrow.b. Watch III taking over. \
@@ -462,7 +459,7 @@ To save space, especially in the *Notes* page, use these standard symbols:
   #align(right)[*-- Alice Smith*]
   1230 - ⚓ Susak Bay. Anchoring for lunch. \
   #align(right)[*-- Alice Smith*]
-  1500 - #sym.arrow.r Susak Bay. Anchor up, Eng #sym.arrow.t. \
+  1500 - #sym.arrow.r Susak Bay. Eng #sym.arrow.t. \
   #align(right)[*-- Bob Jones*]
   1530 - M #sym.arrow.t, J #sym.arrow.t, Eng #sym.arrow.b. \
   #align(right)[*-- Bob Jones*]
