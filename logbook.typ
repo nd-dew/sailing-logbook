@@ -397,7 +397,7 @@ This logbook is organized into two-page spreads to make recording our journey ea
 
 #heading(level: 2)[Shorthand Symbols]
 #v(0.5em)
-To save space in the Pos/Notes columns, use these standard symbols:
+To save space, especially in the *Notes* page, use these standard symbols:
 #v(0.5em)
 #table(
   columns: (3cm, 10cm),
@@ -406,6 +406,8 @@ To save space in the Pos/Notes columns, use these standard symbols:
   [*⚓*], align(left)[Anchoring (Dropping the anchor)],
   [*〰*], align(left)[Moored (Tied to a dock or buoy)],
   [*#sym.arrow.r*], align(left)[Departure (Leaving the dock or anchorage)],
+  [*#sym.arrow.t*], align(left)[Up / ON (e.g., Sails up, Engine on)],
+  [*#sym.arrow.b*], align(left)[Down / OFF (e.g., Sails down, Engine off)],
 )
 
 // --- Daily Log Pages ---
@@ -425,16 +427,16 @@ To save space in the Pos/Notes columns, use these standard symbols:
     table.header(
       [*Time*], [*Pos*], [*HDG*], [*Spd*], [*Log*], [*Wind*], [*Sails*], [*Eng*],
     ),
-    [0800], [〰 Marina Pula], [-], [0.0], [120], [NW 10], [-], [-],
-    [0830], [→ Marina Pula], [PIL], [3.5], [120], [NW 10], [-], [1200],
+    [0800], [Marina Pula], [-], [0.0], [120], [NW 10], [-], [-],
+    [0830], [Marina Pula], [PIL], [3.5], [120], [NW 10], [-], [1200],
     [0915], [N44°50' E13°48'], [210], [6.5], [122], [NW 15], [M1, J1], [-],
     [1000], [N44°45' E13°45'], [215], [7.0], [127], [NW 18], [M1, J1], [-],
     [#strike[1130]], [#strike[N44°38' E13°40']], [#strike[120]], [#strike[5.5]], [#strike[136]], [#strike[N 8]], [#strike[-]], [#strike[1800]],
     [1130], [N44°38' E13°40'], [210], [5.5], [136], [N 8], [-], [1800],
-    [1230], [⚓ Susak Bay], [PIL], [0.0], [140], [N 5], [-], [-],
-    [1500], [→ Susak Bay], [PIL], [4.0], [140], [NE 12], [-], [1500],
+    [1230], [Susak Bay], [PIL], [0.0], [140], [N 5], [-], [-],
+    [1500], [Susak Bay], [PIL], [4.0], [140], [NE 12], [-], [1500],
     [1530], [N44°30' E14°05'], [090], [6.0], [142], [NE 15], [M, J], [-],
-    [1700], [〰 Mali Lošinj], [PIL], [0.0], [151], [NE 10], [-], [-],
+    [1700], [Mali Lošinj], [PIL], [0.0], [151], [NE 10], [-], [-],
     ..for _ in range(14) { ([], [], [], [], [], [], [], []) }
   )
 ]
@@ -445,22 +447,15 @@ To save space in the Pos/Notes columns, use these standard symbols:
 #block(width: 100%, height: 85%, stroke: 0.5pt + luma(200), inset: 1.5em)[
   #set text(size: 11pt)
   #v(0.5em)
-  09:30 - We tried training man overboard (MOB) maneuvers. Finished with great success on the second attempt! Everyone knows their role now. \
-  #align(right)[*-- John Doe*]
-  
-  #v(0.5em)
-  #line(length: 100%, stroke: 0.5pt + luma(200))
-  #v(1em)
-  
-  13:00 - Something funny happened: an Italian fisherman offered us a massive bluefin tuna in exchange for two of our crew members. We considered it for a moment, but decided we needed the hands for the night watch! \
-  #align(right)[*-- Captain Name*]
-  
-  #v(0.5em)
-  #line(length: 100%, stroke: 0.5pt + luma(200))
-  #v(1em)
-  
-  18:00 - Anchored in the bay. Crystal clear water. Making dinner now. \
-  #align(right)[*-- Crew 1*]
+  0800 - 〰 Marina Pula. Waking up, engine off. \
+  0830 - #sym.arrow.r Marina Pula. Eng #sym.arrow.t \
+  0915 - M #sym.arrow.t, J #sym.arrow.t, Eng #sym.arrow.b. Watch III taking over. \
+  1130 - Wind dropped. M #sym.arrow.b, J #sym.arrow.b, Eng #sym.arrow.t. (Mistake in log table crossed out below). \
+  1230 - ⚓ Susak Bay. Anchoring for lunch. \
+  1500 - #sym.arrow.r Susak Bay. Anchor up, Eng #sym.arrow.t. \
+  1530 - M #sym.arrow.t, J #sym.arrow.t, Eng #sym.arrow.b. \
+  1700 - 〰 Mali Lošinj. Moored safely. \
+  2000 - Navigational lights ON. \
 ]
 
 #for i in range(1, 9) [
