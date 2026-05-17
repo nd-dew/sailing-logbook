@@ -345,7 +345,7 @@
 
 #pagebreak()
 
-#heading(level: 1)[Log Entry Guidelines]
+#heading(level: 1)[How to fill Daily Logs]
 #v(1em)
 
 This logbook is organized into two-page spreads to make recording our journey easy. The *left page* is where we keep all the technical data—think of it as the boat's "brain" where we track our speed, position, and engine status every hour. The *right page* is the heart of the log; use it like a journal to write down what happened during the day, tell funny stories, note down the weather, or sketch the coastline.
