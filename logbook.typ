@@ -221,7 +221,7 @@
 #pagebreak()
 
 // --- Crew Briefing ---
-#heading(level: 1)[Crew Briefing (1/2)]
+#heading(level: 1)[Crew Briefing]
 #v(1em)
 
 #block(width: 100%, stroke: 0.5pt + luma(220), inset: 1em, fill: luma(245))[
@@ -229,7 +229,14 @@
     *Captain's Tip:* A full briefing can take a significant amount of time. To speed up the process, consider "Stations": Assign each Watch Officer a specific section to explain.
   ]
 ]
-#v(1em)
+
+#v(2em)
+
+#heading(level: 2)[Cabin Division]
+#v(0.5em)
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Assignments:* Who sleeps where? Assign cabins and bunks now. \
+
+#v(2em)
 
 #heading(level: 2)[#text(rgb("#8B0000"))[Critical Dangers]]
 #v(0.5em)
@@ -246,7 +253,7 @@
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Fire:* Be extremely careful with the gas stove. NEVER leave gas in the pipe: close the bottle first. If fire starts: position yacht so wind blows fire *off* the boat. Use correct extinguisher. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Water Ingress:* Keep hatches closed underway. If leaking: taste test (salt vs fresh), close seacocks, cut power, start bilge pumps, find source. \
 
-#v(2em)
+#pagebreak()
 
 #heading(level: 2)[Life Saving & Emergency Procedures]
 #v(0.5em)
@@ -258,21 +265,37 @@
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *MOB (Man Overboard):* Shout "Man Overboard!", point, MOB button on plotter, throw lifebuoy/light. Approach maneuver – one person commands, others quiet. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Evacuation:* 1st Officer (EPIRB/Raft), 2nd Officer (Grab-bag/Food/Docs), 3rd Officer (Pyrotechnics/Torches/VHF). Count crew. \
 
+#pagebreak()
+
+#heading(level: 2)[Crew Watches]
+#v(0.5em)
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Navigational Watch:* Responsible for sailing, steering, navigation, and deck safety. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Galley Watch:* Responsible for cooking all meals and cleaning the galley for that entire day. \
+
 #v(2em)
 
 #heading(level: 2)[Life On Board – Rules]
 #v(0.5em)
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Say before doing:* Whenever you want to maneuver, steer, or click something on the control panel, announce your intention loudly *before* you do it, so the crew can react. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Conserve electricity:* When sailing, we run on batteries. Do not charge heavy devices (like 100W laptops) without asking first. If you drain the batteries, the engine won't start! \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Forgive minor faults:* It's a week together; speak directly and calmly. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Watches & Sleeping:* Shared cabins, quiet hours; ALWAYS wake the Captain if in doubt. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Water & Toilets:* Conserve water; follow yacht toilet rules (no paper in the bowl). \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Damage:* Shared responsibility; insurance deposit. Report everything immediately. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Attitude:* Being proactive makes you liked in sailing! \
 
-#v(2em)
+#pagebreak()
 
 #heading(level: 2)[Yacht Basics]
 #v(0.5em)
-#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Docking Drill (Stern Cleat):* Practice two variants. 1: Throw line to helper on dock who catches and blocks. 2: Throw and immediately cleat yourself. \
+#box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Line Handling Drill (Stern Cleat):* Go to the stern, practice coiling and throwing the line. You must learn to quickly distinguish and execute: \
+  #pad(left: 2em)[
+    - *Blocking:* Taking one wrap to hold the load. \
+    - *Cleating:* Fully securing the line. \
+    - *Release / Cast off:* Giving the rope totally away. \
+    - *Ease / Give rope:* Loosening it a little bit. \
+    - *Take in slack:* Pulling it tight quickly. \
+  ]
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Knots:* Cleat hitch (mooring lines), Bowline (loop). Practice with eyes closed. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Winches:* Line from bottom, 3–4 wraps, "on top", fingers away. Commands: "taking/easing" – confirm loudly. \
 #box(width: 1.2em, height: 1.2em, stroke: 1pt + navy, radius: 2pt) #h(0.5em) *Port Maneuvers:* No jokes. Short, loud reports ("stern 2m, drifting left"). Wait for Captain's confirmation. \
