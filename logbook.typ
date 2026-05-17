@@ -301,7 +301,7 @@
 #v(0.5em)
 #{
   let hours = ("0000 → 0400", "0400 → 0800", "0800 → 1200", "1200 → 1400", "1400 → 1600", "1600 → 2000", "2000 → 2400")
-  let watch-rotation = (1, 2, 3)
+  let watch-rotation = (3, 1, 2)
   
   table(
     columns: (65pt, ..(1fr,) * hours.len(), 55pt),
@@ -322,11 +322,13 @@
       let cells = ()
       cells.push([#text(size: 8pt)[#label]])
       for i in range(hours.len()) {
-        let watch-num = watch-rotation.at(calc.rem((day + 1) + i - 1, 3))
+        // Shift rotation by day to start with 3, 1, 2
+        let watch-num = watch-rotation.at(calc.rem(day + i, 3))
         let roman-num = if watch-num == 1 { "I" } else if watch-num == 2 { "II" } else { "III" }
         cells.push([#text(size: 9pt)[#roman-num]])
       }
-      let galley-watch = calc.rem(day, 3) + 1
+      // Galley rotation also shifted to stay fair relative to watch start
+      let galley-watch = watch-rotation.at(calc.rem(day + 1, 3))
       let galley-roman = if galley-watch == 1 { "I" } else if galley-watch == 2 { "II" } else { "III" }
       cells.push([*#text(size: 9pt)[#galley-roman]*])
       cells
