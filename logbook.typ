@@ -358,7 +358,7 @@ This logbook is organized into two-page spreads to make recording our journey ea
 - *Pos (Position):* Use Latitude and Longitude with precision to minutes (e.g., N44°50' E13°48') or write the name of the marina or anchorage if we are stationary.
 - *HDG (Current Heading):* Our current compass heading (e.g., 210).
 - *Spd (Speed):* Our instantaneous Speed Over Ground (SOG) in knots at the moment of the entry. If surfing waves, estimate a steady average.
-- *Log:* The total distance from the boat's log instrument.
+- *Log:* The boat's *total lifetime mileage* (odometer). Recording the total value from the instrument rather than a trip log removes the overhead of manual calculations and prevents cumulative mathematical errors.
 - *Wind:* The direction the wind is blowing *from* and speed in knots (e.g., NW 15).
 - *Sails:* Use *M* for Main and *J* for Jib. Note reefing like "M1, J1" or "-" if the sails are down.
 - *Eng (Engine):* Record the current *RPM* (e.g., 1800) or simply write *OFF*.
