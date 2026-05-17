@@ -90,7 +90,7 @@
 #v(0.5em)
   
 #align(center)[
-  #block(width: 80%, stroke: 0.5pt + gray, inset: 1em)[
+  #block(width: 80%, stroke: 0.5pt + luma(220), inset: 1em)[
     #align(left)[
       *Crew List:*
       #v(0.5em)
@@ -129,7 +129,7 @@
 #align(center)[
   #table(
     columns: (1fr, 1fr),
-    stroke: 0.5pt + gray,
+    stroke: 0.5pt + luma(220),
     align: left + horizon,
     inset: 1.2em,
     [*A* - Alfa], [*N* - November],
@@ -224,7 +224,7 @@
 #heading(level: 1)[Crew Briefing (1/2)]
 #v(1em)
 
-#block(width: 100%, stroke: 0.5pt + gray, inset: 1em, fill: luma(245))[
+#block(width: 100%, stroke: 0.5pt + luma(220), inset: 1em, fill: luma(245))[
   #text(size: 10pt)[
     *Captain's Tip:* A full briefing can take a significant amount of time. To speed up the process, consider "Stations": Assign each Watch Officer a specific section to explain.
   ]
@@ -305,7 +305,7 @@
   
   table(
     columns: (65pt, ..(1fr,) * hours.len(), 55pt),
-    stroke: 0.5pt + gray,
+    stroke: 0.5pt + luma(220),
     align: center + horizon,
     inset: (y: 0.4em),
     table.header(
@@ -335,7 +335,7 @@
 }
 
 #v(0.5em)
-#block(width: 100%, stroke: 0.5pt + gray, inset: 1em, fill: luma(250))[
+#block(width: 100%, stroke: 0.5pt + luma(220), inset: 1em, fill: luma(250))[
   *Legend:*
   - *Hourly Columns:* Assigned watch takes care of all *Navigation Duties* and deck operations during these times.
   - *Galley Column:* Assigned watch is responsible for *Cooking and Cleaning* for the *entire day* (from breakfast until supper, assigned watch is in charge of the kitchen).
@@ -383,7 +383,7 @@ This logbook is organized into two-page spreads to make recording our journey ea
   #table(
     columns: (45pt, 100pt, 45pt, 45pt, 45pt, 55pt, 60pt, 1fr),
     rows: (auto, ..(1fr,) * 24),
-    stroke: 0.5pt + gray,
+    stroke: 0.5pt + luma(220),
     align: center + horizon,
     inset: (x: 2pt, y: 0.2em),
     table.header(
@@ -434,7 +434,7 @@ This logbook is organized into two-page spreads to make recording our journey ea
     #table(
       columns: (45pt, 100pt, 45pt, 45pt, 45pt, 55pt, 60pt, 1fr),
       rows: (auto, ..(1fr,) * 24), // First row is auto (header), the rest stretch to fill the block
-      stroke: 0.5pt + gray,
+      stroke: 0.5pt + luma(220),
       align: center + horizon,
       table.header(
         [*Time*], [*Pos*], [*HDG*], [*Spd*], [*Log*], [*Wind*], [*Sails*], [*Eng*],
