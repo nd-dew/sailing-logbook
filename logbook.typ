@@ -45,7 +45,7 @@
 #let end-date = ""
 #let sailing-area = ""
 #let charter-company = ""
-#let version = "1.0.0"
+#let version = "1.1.0"
 
 #let captain = ""
 
