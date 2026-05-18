@@ -408,9 +408,9 @@ To save space, especially in the *Notes* page, use these standard symbols:
   [*#sym.arrow.r*], align(left)[Departure (Leaving the dock or anchorage)],
   [*#sym.arrow.t*], align(left)[Up / ON (e.g., Sails up, Engine on)],
   [*#sym.arrow.b*], align(left)[Down / OFF (e.g., Sails down, Engine off)],
-  [#v(0.5em)], [],
-  [#v(0.5em)], [],
-  [#v(0.5em)], [],
+  [#v(1.5em)], [],
+  [#v(1.5em)], [],
+  [#v(1.5em)], [],
 )
 
 // --- Daily Log Pages ---
